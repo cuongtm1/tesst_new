@@ -16,14 +16,14 @@ Route::group(['prefix' => '/'], function() {
 	Route::get('product-detail', function () {
 	    return view('pages.product-detail');
 	});
-	Route::get('news', function () {
-	    return view('pages.news');
-	});
-	Route::get('new-detail', function () {
-	    return view('pages.new-detail');
-	});
-	Route::get('contact', function () {
-	    return view('pages.contact');
-	});
+	// Route::get('news', function () {
+	//     return view('pages.news');
+	// });
+	// Route::get('new-detail', function () {
+	//     return view('pages.new-detail');
+	// });
+	// Route::get('contact', function () {
+	//     return view('pages.contact');
+	// });
 	    
 });
